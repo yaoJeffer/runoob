@@ -1,0 +1,310 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "微软雅黑";
+    background-color: #F6F6F6;
+}
+
+header {
+    height: 95px;
+    width: 100%;
+    position: relative;
+}
+
+header a img {
+    width: 258px;
+    height: 40px;
+    padding-top: 27.5px;
+    padding-left: 9%;
+    cursor: pointer;
+}
+
+form {
+    display: inline;
+    position: absolute;
+    top: 28px;
+    left: 60%;
+}
+
+.text {
+    width: 400px;
+    height: 15px;
+    border-radius: 3px;
+    border: 1px solid #C8C8C8;
+    background-color: white;
+    box-shadow: 0px 0px 20px #EEEFED;
+    padding: 10px 0px 10px 10px;
+}
+
+nav {
+    height: 35px;
+    width: 100%;
+    background-color: #96B97D;
+    padding-left: 9.2%;
+    box-sizing: border-box;
+}
+
+nav p {
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+    background-color: #96B97D;
+    margin-right: 1.85%;
+    line-height: 35px;
+    cursor: pointer;
+}
+
+.content {
+    margin-top: 24px;
+}
+
+.course {
+    float: left;
+    width: 13.3%;
+    height: 465px;
+    margin-left: 7.8%;
+}
+
+.course p {
+    height: 40px;
+    cursor: pointer;
+    background-color: white;
+    padding-left: 2px;
+    line-height: 40px;
+    border-left: 1px solid #E5E5E5;
+    border-top: 1px solid #E5E5E5;
+    border-right: 1px solid #E5E5E5;
+}
+
+.course p a {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    vertical-align: middle;
+}
+
+.course p img {
+    vertical-align: middle;
+}
+
+.course .all-course {
+    color: #a3a3a3;
+    line-height: 30px;
+    height: 30px;
+    background-color: #F0F0F0;
+    padding-left: 8px;
+    font-size: 15px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.course .last {
+    border-bottom: 1px solid #F0F0F0;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.detail {
+    width: 930px;
+    background-color: white;
+    margin-left: 300px;
+    border-radius: 5px;
+    border: 1px solid #EAEAEA;
+}
+
+.every7 {
+    height: 140px;
+    padding: 15px 0px 0px 20px;
+    background-color: white;
+}
+
+.every8 {
+    height: 350px;
+    padding: 15px 0px 0px 20px;
+    background-color: white;
+}
+
+.every,
+.every2,
+.every3,
+.every5,
+.every6 {
+    height: 250px;
+    padding: 15px 0px 0px 20px;
+    background-color: white;
+}
+
+.every0,
+.every1,
+.every4 {
+    height: 455px;
+    padding: 15px 0px 0px 20px;
+    background-color: white;
+}
+
+.detail h3 {
+    background-color: white;
+}
+
+.same {
+    border-top: 1px solid #EAEAEA;
+    padding-top: 15px;
+    background-color: white;
+}
+
+.thing h4 {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.thing img {
+    width: 36px;
+    height: 36px;
+    padding: 8px 15px 0px 30px;
+    float: left;
+}
+
+.thing a {
+    text-decoration: none;
+    color: #839d6f;
+}
+
+.thing strong {
+    font-size: 10px;
+    color: #898989;
+}
+
+.thing {
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: left;
+    width: 280px;
+    height: 90px;
+}
+
+.right {
+    padding-right: 50px;
+}
+
+.home {
+    background: url(jiantou.png) no-repeat bottom;
+    background-position: center bottom;
+}
+
+.all-bottom {
+    height: 250px;
+    border-top: 1px solid #E4E4E4;
+    border-bottom: 1px solid #E4E4E4;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.bottom {
+    width: 80%;
+    margin: 0 auto;
+    height: 250px;
+    background-color: white;
+}
+
+.bottom dl {
+    background-color: white;
+    width: 152px;
+    margin-top: 25px;
+    border-left: 1px solid #E4E4E4;
+    padding-left: 30px;
+    float: left;
+}
+
+.bottom dt {
+    background-color: white;
+    font-size: 14px;
+    color: #666666;
+}
+
+.bottom dd {
+    background-color: white;
+    padding-top: 6px;
+}
+
+.bottom a {
+    background-color: white;
+    text-decoration: none;
+    color: #9999B0;
+    font-size: 11px;
+}
+
+.bottom a:hover {
+    color: #61C57C;
+}
+
+.bottom .three dd {
+    width: 109px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #9999B0;
+}
+
+.wechat {
+    background-color: white;
+    float: left;
+    width: 162px;
+    border-left: 1px solid #E4E4E4;
+    padding: 20px 0px 0px 40px;
+}
+
+.wechat strong {
+    display: block;
+    background-color: white;
+}
+
+.wechat img {
+    margin-top: 16px;
+    margin-bottom: 35px;
+}
+
+footer {
+    font-size: 12px;
+    color: #9999B0;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #9999B0;
+}
+
+footer a:hover {
+    color: #5FC37A;
+}
+
+.cebian {
+    width: 40px;
+    height: 120px;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+}
+
+.cebian a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+}
+
+.cebian .top {
+    color: #ABC797;
+}
+
+.cebian .fankui {
+    font-size: 11px;
+    color: white;
+    background-color: #ABC797;
+}
